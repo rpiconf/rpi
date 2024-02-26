@@ -1,0 +1,7 @@
+LLM baseline prompt is 
+
+PROMPT: You will be provided with a text, and your task is to extract a list of keywords from it. Always taske some words!
+[txt] 
+keywords:
+
+The proped selected after looking at more options including the ranking, but this promped worked better.
