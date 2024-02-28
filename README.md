@@ -2,11 +2,7 @@
 
 
 ## Introduction
-Implementation of Randomized Path-Integration (RPI).
-
-
-RPI is a path-integration method for explaining language models via randomization of the integration path over the attention information in
-the model. The adaptability provided by multiple baselines enables RPI to select the most effective attribution map tailored to the specific evaluation metric
+This work presents Randomized Path-Integration (RPI) - a path-integration method for explaining language models via randomization of the integration path over the attention information in the model. 
 
 ### Visual illustration of the difference between baselines
 <p align="center">
