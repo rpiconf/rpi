@@ -1,14 +1,28 @@
-# RPI
+# PyTorch Implementation of RPI
+
+<p align="center">
+  <img width="1400" src="examples.png" alt="RPI" title="RPI">
+</p>
 
 ## Introduction
 Implementation of Randomized Path-Integration (RPI).
 
+
 RPI is a path-integration method for explaining language models via randomization of the integration path over the attention information in
-the model.
+the model. The adaptability provided by multiple baselines enables RPI to select the most effective attribution map tailored to the specific evaluation metric
 
-The domain is NLP classification tasks.
+## Running RPI
+Examples of running our method on BERT and LLAMA:
+```
+runs/run_bert.py
+```
+```
+runs/run_llama.py
+```
 
-run_bert.py, run_llama.py are examples of running options.
+## Config
+Config/tasks.py includes the different datasets configs including the selected models.
+When using dataset size None it means it uses the original dataset size.
 
-Config tasks contain all the different tasks configurations. 
+For using Meta Llama model we downloaded the model and used it locally - meta-llama/Llama-2-7b-hf model.
 
