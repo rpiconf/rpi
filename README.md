@@ -1,8 +1,5 @@
 # PyTorch Implementation of RPI
 
-<p align="center">
-  <img width="1400" src="examples.png" alt="RPI" title="RPI">
-</p>
 
 ## Introduction
 Implementation of Randomized Path-Integration (RPI).
@@ -10,6 +7,11 @@ Implementation of Randomized Path-Integration (RPI).
 
 RPI is a path-integration method for explaining language models via randomization of the integration path over the attention information in
 the model. The adaptability provided by multiple baselines enables RPI to select the most effective attribution map tailored to the specific evaluation metric
+
+### Visual illustration of the difference between baselines
+<p align="center">
+  <img width="1400" src="difference.png" alt="RPI" title="RPI">
+</p>
 
 ## Running RPI
 Examples of running our method on BERT and LLAMA:
