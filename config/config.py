@@ -35,10 +35,8 @@ class MetricsMetaData:
                   EvalMetric.NEG_AUC_WITH_REFERENCE_TOKEN.value: DirectionTypes.MAX.value}
 
     top_k = {EvalMetric.SUFFICIENCY.value: [20], EvalMetric.COMPREHENSIVENESS.value: [20],
-             EvalMetric.EVAL_LOG_ODDS.value: [20], EvalMetric.AOPC_SUFFICIENCY.value: torch.arange(20, 100, 20),
-             EvalMetric.AOPC_COMPREHENSIVENESS.value: torch.arange(20, 100, 20),
-             EvalMetric.POS_AUC_WITH_REFERENCE_TOKEN.value: torch.arange(20, 100, 20),
-             EvalMetric.NEG_AUC_WITH_REFERENCE_TOKEN.value: torch.arange(20, 100, 20)}
+             EvalMetric.EVAL_LOG_ODDS.value: [20], EvalMetric.AOPC_SUFFICIENCY.value: [1, 5, 10, 20, 50],
+             EvalMetric.AOPC_COMPREHENSIVENESS.value: [1, 5, 10, 20, 50]}
 
 
 class BackbonesMetaData:
