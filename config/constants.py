@@ -1,0 +1,7 @@
+TEXT_PROMPT = "Text:"
+LABEL_PROMPT = "Label:"
+LABEL_PROMPT_NEW_LINE = f"\n{LABEL_PROMPT}"
+WORDS = "words:"
+
+HF_CACHE = "./"
+LOCAL_MODELS_PREFIX = "./"
